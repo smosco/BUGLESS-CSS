@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", snas-serif;
+    color: black;
+}
+
+.parent{
+    background-color: "#eff2f7";
+    width: 400px;
+    margin: 0 right;
+}
+
+.parent::after{
+    display: block;
+    content: "";
+    clear: left;
+}
+
+.child{
+    float: left;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200;
+    color: #ffff;
+    font-weight: 600;
+
+    
+
+}
+.red{
+    background-color: red;
+    
+}
+.yellow{
+    background-color: yellow;
+
+}
+.other{
+    background-color: black;
+    color: white;
+}
