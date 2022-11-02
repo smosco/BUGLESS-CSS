@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    overflow-x: scroll;
+    overflow-y: hidden;    
+}
+.box{
+    width: 500px;
+    height: 400px;
+    background-color: #0066ff;
+    border: 1px dashed #0066ff;
+    overflow: hidden;
+    
+
+}
+
+blockquote{
+    
+    height: 400px;
+    background-color: #f1c40f;
+    
+}

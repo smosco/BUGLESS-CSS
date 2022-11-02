@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    color: rgb(12, 2, 2);
+}
+
+.grandparent{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #1f2d3d;
+}
+
+.parent{
+    background-color: rgb(212, 216, 215);
+    width: 400px;
+    margin: 0 auto;
+}
+
+.child{
+    
+    width: 200px;
+    height: 200px;
+    line-height: 200;
+    text-align: center;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.red{
+    bottom: 0;
+    position: fixed;
+    background-color: red;
+    
+}
+.yellow{
+    background-color: orange;
+    
+}
+.blue{
+    background-color: green;
+}
+

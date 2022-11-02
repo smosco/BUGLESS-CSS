@@ -1,0 +1,31 @@
+@import url("font/nanumsquareround.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 20px;
+}
+body{
+    font-family: "hyun", sans-serif;
+    color: #212529;
+}
+
+.first{
+    font-size: 1rem;
+    line-height: 2;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: rgba(0, 102, 255, 1);
+    text-indent: 100px;
+    text-transform: capitalize;
+    text-decoration: none; 
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #0066ff
+}
