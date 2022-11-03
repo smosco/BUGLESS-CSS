@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a{
+    display: block;
+    width: 190px;
+    height: 30px;
+    background-color: #9c88ff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffff;
+}
+
+a:hover{
+    background-color: #8c7ae6;
+    cursor: pointer;
+}
+
+a:active{
+    background-color: #273c75;
+}
+
+input{
+    outline: none;
+    box-shadow: none;
+}
+input:focus{
+    border-color: #1fbbff;
+}
+
+input:active{
+    border-color: #85d7ff;
+}
