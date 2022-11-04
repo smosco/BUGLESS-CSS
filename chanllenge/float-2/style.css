@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    letter-spacing: -0.02em;
+    font-family: 'Noto Sans CJK KR';
+    background-color: #AFB3B9;
+}
+
+h1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1F2D3D;
+    line-height: 1.25;
+}
+
+strong{
+    font-size: 14px;
+    font-weight: 400;
+    color: #AFB3B9;
+    line-height: 1.42;
+}
+
+p{
+    font-size: 16px;
+    color: #79818B;
+    line-height: 1.5;
+}
+
+
+.card{
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffff;
+    
+}
+
+.classfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.card-user{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+
+.card-user,
+.card-content{
+    float: left;
+    
+}
+
+.card-content strong{
+    display: block;
+    margin-top: 4px;
+
+}
+
+.card-content p{
+    margin-top: 12px;
+
+}
